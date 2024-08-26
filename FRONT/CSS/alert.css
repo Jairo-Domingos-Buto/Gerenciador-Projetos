@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+   --fundo:#131313;
+    --black:#000000;
+    --white:#fff;
+    --vermelho:#e53939;
+
+}
+body{
+    background-color:var(--fundo);
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+h1{
+    color:var(--vermelho);
+    margin-bottom: 10px;
+}
+p,a{
+    color: var(--white);
+}
