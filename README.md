@@ -25,7 +25,8 @@ Liste os requisitos para rodar o projeto localmente:
 1. **Clone o repositório**
 
    ```bash
-   git clone https://github.com/usuario/nome-do-projeto.git
+   git clone https://github.com/Jairo-Domingos-Buto/Gerenciador-Projetos.git
+
 
 ## Instalação
 
