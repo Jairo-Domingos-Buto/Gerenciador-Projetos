@@ -43,7 +43,7 @@ if (isset($_GET['id'])) {
 
         </nav>
         <ul id="perfil">
-            <li><a href="atualizar_perfil.php"><img width="60px" height="60px" src="../imgs/logo.jpeg" alt=""></a></li>
+        <li><a href="atualizar_perfil.php?id=<?=$_SESSION['id'];?>"><img width="60px" height="60px" src="../imgs/logo.jpeg" alt=""></a></li>
         </ul>
     </header>
 

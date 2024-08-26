@@ -15,11 +15,10 @@ if (isset($_GET['id'])) {
     $id = $_GET['id'];
 
     // Utiliza prepared statements para evitar SQL Injection
-    $sql = "SELECT * FROM usuarios WHERE id = ?";
+    $sql = "SELECT * FROM usuarios WHERE id = $id";
     $stmt = $db->prepare($sql);  // Supondo que $db seja o objeto de conexão vindo de 'conn.php'
     
     if ($stmt) {
-        $stmt->bind_param('i', $id);  // 'i' significa inteiro
         $stmt->execute();
         $result = $stmt->get_result();
         
